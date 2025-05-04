@@ -1,0 +1,19 @@
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  width: 340px;
+  border: 1px solid #bf4040;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: larger;
+  color: #bf4040;
+  text-shadow: 0 0 1px #1a0441;
+  & p {
+    font-size: x-large;
+    margin-bottom: 5px;
+  }
+}

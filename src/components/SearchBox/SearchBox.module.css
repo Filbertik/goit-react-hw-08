@@ -1,0 +1,23 @@
+.box {
+  position: relative;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  right: 0px;
+  bottom: 20px;
+  right: 15px;
+  & .icon {
+    height: 25px;
+    width: 25px;
+    transition: fill 200ms ease-in;
+  }
+  &:hover .icon {
+    fill: #bf4040;
+  }
+}
